@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (CRITICAL)
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# RAG Data (Large Files)
+*.pdf
+# Keep the example/instructional PDFs if you want, but usually we ignore large datasets
+# For this repo, we might want to instruct users to download them.
+
+# Logs
+*.log
+
+# Temporary Debug Scripts (Optional to track)
+debug_imports.py
+verify_cis_data.py
+list_models.py

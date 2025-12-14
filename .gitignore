@@ -1,0 +1,19 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.env
+
+# Logs
+*.log
+*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Binaries / Temp
+*.pdf
+!clean_nist.pdf
